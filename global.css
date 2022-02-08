@@ -1,4 +1,5 @@
-.body {
+body {
     padding: 0 2 rem;
+    background-color: purple;
     color: blue;
 }
