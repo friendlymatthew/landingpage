@@ -8,12 +8,39 @@ body {
 
 nav {
   background-color: yellow;
-  padding: 4px 12px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 12px 0px;
+}
+
+.nav-links {
+  justify-content: space-between;
+  display: flex;
+  width: 50%;
+  border: 1px dashed gray;
+  margin-right: 40px;
+  
+}
+
+.nav-link {
+  font-size: large;
+  font-weight: 500;
+
+
+}
+
+.nav-link:hover {
+  text-decoration:underline;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+a {
+  text-decoration:none;
 }
 
 title {
