@@ -1,147 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
     <link rel="stylesheet" href="global.css" />
     <title>Music Rating</title>
   </head>
 
-  <nav class="sticky">
-    <a href="#hero" class="nav-title">
-      LOGO
-
-    </a> 
-
-    <span class="nav-links">
-     
-
-      <a href="#community" class="nav-link">
-        Community
-      </a>
-
-
-      <a href="#pricing" class="nav-link">
-        Pricing
-      </a>
-
-      <a href="#testimonials" class="nav-link">
-        Testimonials
-      </a>
-  
-      <a href="#faq" class="nav-link">
-        FAQ
-      </a>
-
-      <label class="dropdown">
-
-        <div class="dd-button">
-          Dropdown
-        </div>
-      
-        <input type="checkbox" class="dd-input" id="test">
-      
-        <ul class="dd-menu">
-          <li>Action</li>
-          <li>Another action</li>
-          <li>Something else here</li>
-          <li class="divider"></li>
-          <li>
-            <a href="http://rane.io">Link to Rane.io</a>
-          </li>
-        </ul>
-        
-      </label>
-  
-     
-    </span> 
-    
-
-  </nav>
-
   <body>
+    <div class="sticky">
+      <div id="navbar" class="navbar">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li><a href="#app">Download</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+
     <section id="hero">
       <div class="hero-samp">
         <div class="hero-text">
-          <div class="hero-title">
-            Lorem Ratesumusic
-          </div>
+          <div class="hero-title">Lorem Ratesumusic</div>
           <div class="hero-desc">
-            laboris nisi ut aliquip ex ea commodo consequat henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+            laboris nisi ut aliquip ex ea commodo consequat henderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur
           </div>
-          <div class ="hero-actions">
-            <a class="hero">
-              Features
-            </a>
-
-            <a class="hero">
-              Community
-            </a>
-
+          <div class="hero-actions">
+            <a class="hero"> Get Started </a>
           </div>
         </div>
-  
-        <div class="hero-image">
-  
-        </div>
-  
       </div>
-    
+    </section>
 
+    <section id="banner">
+      <div class="banner-scaffold">
+        <div class="banner-span-message">
+          <span class="banner-message">
+            Rate Ancient Roman Music On A Scale From
+            <span class="banner-message-roman"> I </span> to
+            <span class="banner-message-roman">X</span></span
+          >
 
+          <div class="banner-scaffold">
+            <img
+              class="banner-roman-image"
+              src="public/roman.png"
+              width="450"
+            />
+
+            <div class="banner-roman-message">
+              "Nah. This is a solid III"
+
+              <div class="banner-roman-speaker">
+                <div>- Tiberius Nasennius Parnesius</div>
+                <div class="banner-roman-speaker-alt">huge fan of Lute music</div>
+                <div class="banner-roman-speaker-alt">44 B.C.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="promo">
       <div class="promo-card">
-        
         <div class="promo-text">
-          <img 
+          <img
             src="public/applemusic.png"
             alt="applemusic"
             width="60"
             height="60"
             class="music"
-          
-        />
-            <span class="promo-text-primary">
-  
-              Play full songs with Apple Music.
-            </span> 
-            
-              Get up to 3 months free
-            
-            <div class="promo-button">
-              Try Now
-            </div>
-              
+          />
+          <span class="promo-text-primary">
+            Play and rate full songs with Lorem Ratesumusic.
+          </span>
+
+          Get up to <span class="banner-message-roman">III</span> months free.
+
+          <div class="promo-button">Try Now</div>
         </div>
-
-       
-
-       
       </div>
     </section>
 
+    <section id="app">
+      <container class="app">
+        <div class="app-text">
+          <div class="app-text-desc">DOWNLOAD THE APP</div>
+          <div>Identify and rate songs</div>
+          <div>around you on the go</div>
+
+          <div class="qr">
+            <img
+              class="qrcode"
+              src="public/qrcode.png"
+              width="100px"
+              height="100px"
+            />
+
+            <div class="qrtext">
+              <div class="qrtext-desc">
+                Use your phone's camera to scan and download the free Lorem
+                Ratesumusic app
+              </div>
+
+              <span> Available on </span> <a>iOS</a>, <a>Android</a> and
+              <a>more devices</a>
+            </div>
+          </div>
+        </div>
+      </container>
+    </section>
 
     <section id="community">
-      <title>
-        See what our community is all about
-      </title>
-      <section class="sidecar">
-        <div>
-          <div>
-            lorem ipsum lorem ipsum
-          </div>
-          <div>
-            In ornare quam viverra orci sagittis eu volutpat odio facilisis. Lectus sit amet est p
-          </div> 
-        </div>
-        <img src="/public/one.png">
-            
-          </img>
-       
+      <section class="community-frame-scaffold">
+        <iframe src="romans.html" name="romeframe" class="romeframe"> </iframe>
       </section>
-
-
     </section>
 
     <div id="wrapper">
@@ -151,20 +129,21 @@
           <card>
             <div class="card-header">
               <div class="card-title">Free</div>
-              <div class="card-price">from $0/month</div>
+              <div class="card-price">from $V/month</div>
               <button>Sign Up</button>
             </div>
-  
+
             <div class="card-body">
               <div class="card-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                facilisis mauris porta dolor malesuada, nec pulvinar ex tristique.
-                Phasellus ultrices aliquet est a scelerisque. Morbi vestibulum
-                nibh vitae tincidunt eleifend. Maecenas dolor mauris, rutrum sed
-                tempus eu, sagittis eu sapien. Ut sollicitudin justo ac nulla
-                consequat iaculis. Pellentesque in pretium leo, et dapibus metus.
+                facilisis mauris porta dolor malesuada, nec pulvinar ex
+                tristique. Phasellus ultrices aliquet est a scelerisque. Morbi
+                vestibulum nibh vitae tincidunt eleifend. Maecenas dolor mauris,
+                rutrum sed tempus eu, sagittis eu sapien. Ut sollicitudin justo
+                ac nulla consequat iaculis. Pellentesque in pretium leo, et
+                dapibus metus.
               </div>
-  
+
               <div class="card-bullet">
                 <div class="bullet">
                   <div class="bulletsign"></div>
@@ -172,28 +151,27 @@
                     Nibh tortor id aliquet lectus proin nibh nisl
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
                     Dictum at tempor commodo ullamcorper
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
-                    Pretium viverra suspendisse potenti 
+                    Pretium viverra suspendisse potenti
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
                     Et tortor at risus viverra adipiscing at in
                   </div>
                 </div>
-  
               </div>
             </div>
 
@@ -201,24 +179,25 @@
               <a>Compare pricing</a>
             </div>
           </card>
-  
+
           <card>
             <div class="card-header">
               <div class="card-title">Standard</div>
-              <div class="card-price">from $12/month</div>
+              <div class="card-price">from $XII/month</div>
               <button>Sign Up</button>
             </div>
-  
+
             <div class="card-body">
               <div class="card-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                facilisis mauris porta dolor malesuada, nec pulvinar ex tristique.
-                Phasellus ultrices aliquet est a scelerisque. Morbi vestibulum
-                nibh vitae tincidunt eleifend. Maecenas dolor mauris, rutrum sed
-                tempus eu, sagittis eu sapien. Ut sollicitudin justo ac nulla
-                consequat iaculis. Pellentesque in pretium leo, et dapibus metus.
+                facilisis mauris porta dolor malesuada, nec pulvinar ex
+                tristique. Phasellus ultrices aliquet est a scelerisque. Morbi
+                vestibulum nibh vitae tincidunt eleifend. Maecenas dolor mauris,
+                rutrum sed tempus eu, sagittis eu sapien. Ut sollicitudin justo
+                ac nulla consequat iaculis. Pellentesque in pretium leo, et
+                dapibus metus.
               </div>
-  
+
               <div class="card-bullet">
                 <div class="bullet">
                   <div class="bulletsign"></div>
@@ -226,28 +205,27 @@
                     Nibh tortor id aliquet lectus proin nibh nisl
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
                     Dictum at tempor commodo ullamcorper
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
-                    Pretium viverra suspendisse potenti 
+                    Pretium viverra suspendisse potenti
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
                     Et tortor at risus viverra adipiscing at in
                   </div>
                 </div>
-  
               </div>
             </div>
 
@@ -255,25 +233,25 @@
               <a>Compare pricing</a>
             </div>
           </card>
-  
-  
+
           <card>
             <div class="card-header">
               <div class="card-title">Professional</div>
-              <div class="card-price">from $24/month</div>
+              <div class="card-price">from $XXXV/month</div>
               <button>Sign Up</button>
             </div>
-  
+
             <div class="card-body">
               <div class="card-desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                facilisis mauris porta dolor malesuada, nec pulvinar ex tristique.
-                Phasellus ultrices aliquet est a scelerisque. Morbi vestibulum
-                nibh vitae tincidunt eleifend. Maecenas dolor mauris, rutrum sed
-                tempus eu, sagittis eu sapien. Ut sollicitudin justo ac nulla
-                consequat iaculis. Pellentesque in pretium leo, et dapibus metus.
+                facilisis mauris porta dolor malesuada, nec pulvinar ex
+                tristique. Phasellus ultrices aliquet est a scelerisque. Morbi
+                vestibulum nibh vitae tincidunt eleifend. Maecenas dolor mauris,
+                rutrum sed tempus eu, sagittis eu sapien. Ut sollicitudin justo
+                ac nulla consequat iaculis. Pellentesque in pretium leo, et
+                dapibus metus.
               </div>
-  
+
               <div class="card-bullet">
                 <div class="bullet">
                   <div class="bulletsign"></div>
@@ -281,28 +259,27 @@
                     Nibh tortor id aliquet lectus proin nibh nisl
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
                     Dictum at tempor commodo ullamcorper
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
-                    Pretium viverra suspendisse potenti 
+                    Pretium viverra suspendisse potenti
                   </div>
                 </div>
-  
+
                 <div class="bullet">
                   <div class="bulletsign"></div>
                   <div class="bulletbody">
                     Et tortor at risus viverra adipiscing at in
                   </div>
                 </div>
-  
               </div>
             </div>
 
@@ -310,19 +287,8 @@
               <a>Compare pricing</a>
             </div>
           </card>
-  
-  
-  
         </section>
+      </section>
     </div>
-    
-    </section>
-
-    <section id="faq">
-   
-
-    </section>
-
-    <section id="testimonials"></section>
   </body>
 </html>
