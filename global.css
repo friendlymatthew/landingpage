@@ -142,6 +142,7 @@ a.hero:hover {
 .hero-desc {
   opacity: 0.7;
   color: black;
+  font-weight: 600;
   font-size: 1.5rem;
 }
 
@@ -311,6 +312,10 @@ a.hero:hover {
 
 .promo-text-primary {
   opacity: 0.6;
+}
+
+.promo-button-scaffold {
+  margin-top: 20px;
 }
 
 .promo-button {
