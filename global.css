@@ -83,11 +83,10 @@ a.hero:hover {
 
 /* NAVBAR CSS PROPERTIES */
 
-
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  background-color: #FBF3DA;
+  background-color: #fbf3da;
   top: 0;
 }
 
@@ -171,7 +170,6 @@ a.hero:hover {
   height: 320px;
 }
 
-
 /* BANNER CSS PROPERTIES */
 
 #banner {
@@ -183,7 +181,6 @@ a.hero:hover {
 
 #banner:hover {
   background-color: #fcf6e3;
-
 }
 
 .banner-scaffold {
@@ -211,7 +208,6 @@ a.hero:hover {
   width: 70%;
   opacity: 0.8;
   text-align: center;
-
 }
 
 .banner-roman-image {
@@ -471,13 +467,8 @@ button.iframe-button {
     line-height: auto;
   }
 
-  .hero-text {
-    width: 90%;
-    height: 50%;
-  }
-
   #banner {
-    margin-bottom: 40px;
+    transition: 0.8s;
   }
 
   .banner-span-message {
@@ -488,7 +479,7 @@ button.iframe-button {
     font-size: 30px;
     opacity: 0.8;
     padding: 0px 12px;
-   }
+  }
 
   .banner-roman-message {
     font-size: 1.5rem;
@@ -502,93 +493,91 @@ button.iframe-button {
     margin-top: 10px;
   }
 
-.banner-roman-speaker {
-  font-size: 1rem;
-  opacity: 0.7;
-}
+  .banner-roman-speaker {
+    font-size: 1rem;
+    opacity: 0.7;
+  }
 
-.banner-roman-speaker-alt {
-  opacity: 0.65;
-  font-style: italic;
-}
+  .banner-roman-speaker-alt {
+    opacity: 0.65;
+    font-style: italic;
+  }
 
+  .hero-title {
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    transition: 0.7s;
+    padding-left: 90px;
+  }
 
-.hero-title {
-  font-weight: 700;
-  color: black;
-  font-size: 2rem;
-  transition: 0.7s;
-  padding-left: 90px;
-}
+  .hero-desc {
+    padding-left: 90px;
+    font-size: 1.3rem;
+  }
 
-.hero-desc {
-  padding-left: 90px;
-  font-size: 1.3rem;
-}
+  .hero-text {
+    width: 90%;
+    height: 50%;
+  }
 
+  a.hero {
+    color: orangered;
+    transition: 0.6s;
+    font-size: 1.4rem;
+    padding-left: 90px;
+    margin-right: 1em;
+  }
 
-a.hero {
-  color: orangered;
-  transition: 0.6s;
-  font-size: 2rem;
-  padding-left: 90px;
-  margin-right: 1em;
+  .promo-text {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 800;
+    width: 40%;
+    padding: 1em 1em;
+    display: inline;
+  }
 
-}
+  .promo-button {
+    border-radius: 0.5em;
+    width: auto;
+    font-size: 20px;
+    color: orangered;
+    padding: 2px 3px;
+    transition: 0.8s;
+    margin-top: 4rem;
+  }
 
+  .app-text {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 3rem 3rem;
+  }
 
-.promo-text {
-  font-size: 20px;
-  color: #ffffff;
-  font-weight: 800;
-  width: 40%;
-  padding: 1em 1em;
-  display: inline;
-}
+  .qr {
+    background-color: #ffffff;
+    border-radius: 0.8rem;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
 
-.promo-button {
-  border-radius: 0.5em;
-  width: auto;
-  font-size: 20px;
-  color: orangered;
-  padding: 2px 3px;
-  transition: 0.8s;
-  margin-top: 4rem;
-}
+  .iframe-title {
+    font-size: 2rem;
+  }
 
-.app-text {
-  font-size: 40px;
-  font-weight: 700;
-  padding: 3rem 3rem;
-}
+  .iframe-message {
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.7;
+    width: 70%;
+    text-align: center;
+  }
 
-.qr {
-  background-color: #ffffff;
-  border-radius: 0.8rem;
-  padding: 1rem 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  align-items: center;
-  margin-top: 1.5rem;
-}
-
-.iframe-title {
-  font-size: 2rem;
-}
-
-.iframe-message {
-  font-size: 0.8rem;
-  font-weight: 500;
-  opacity: 0.7;
-  width: 70%;
-  text-align: center;
-}
-
-
-button.iframe-button {
-  margin-top: 10px;
-}
-
-
+  button.iframe-button {
+    margin-top: 10px;
+  }
 }

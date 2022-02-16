@@ -5,8 +5,8 @@
 
 # About
 
-[`Lorem Ratesumusic`](https://matthewkim0.github.io/landingpage/) is a landing page for a fictious Ancient Roman music rating app for Software Engineering, COMP333 at Wesleyan University.
+[`Lorem Ratesumusic`](https://matthewkim0.github.io/landingpage/) is a landing page for a fictious Ancient Roman music rating app for Software Engineering class (COMP333) at Wesleyan University.
 
-*NOTE: This site was designed and published as part of Software Engineering class, COMP333, at Wesleyan University. This is a fictious platform that is not publically available but rather is created as training exercise.* 
+*NOTE: This site was designed and published as part of Software Engineering class at Wesleyan University. This is a fictious platform that is not publically available but rather is created as training exercise.* 
 
 
