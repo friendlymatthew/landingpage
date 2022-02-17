@@ -16,8 +16,6 @@ container.app {
   justify-content: center;
 }
 
-
-
 h3 {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -471,7 +469,6 @@ button.iframe-button {
   .navbar li {
     width: auto;
     display: inline-block;
-    line-height: auto;
   }
 
   #banner {
@@ -556,7 +553,7 @@ button.iframe-button {
   }
 
   .app-text {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     padding: 3rem 3rem;
   }
@@ -573,7 +570,8 @@ button.iframe-button {
   }
 
   .iframe-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+
   }
 
   .iframe-message {
@@ -586,5 +584,6 @@ button.iframe-button {
 
   button.iframe-button {
     margin-top: 10px;
+    font-size: 0.8rem;
   }
 }
