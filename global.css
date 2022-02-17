@@ -16,6 +16,8 @@ container.app {
   justify-content: center;
 }
 
+
+
 h3 {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -346,7 +348,7 @@ a.hero:hover {
   width: 80%;
   border: 0px;
   padding: 5rem 1rem;
-  height: 18rem;
+  height: 20rem;
 }
 
 /* PRICING CSS PROPERTIES */
@@ -370,11 +372,11 @@ a.hero:hover {
 
 card {
   background-color: #ffffff;
-  border: 1.5px solid #6b7280;
   border-radius: 10px;
   width: 18rem;
   padding: 40px 40px;
   margin: 10px;
+  box-shadow: 0 0 1px 1px  rgb(0 0 0 / 0.2);
 }
 
 .card-header {
@@ -394,43 +396,26 @@ card {
   margin-bottom: 10px;
 }
 
+.card-features ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-features li {
+  padding: 10px 0px;
+  transition: 0.8s;
+}
+
+.card-features li:hover {
+  font-weight: 800;
+}
+
+
 .card-actions {
   margin-top: 5rem;
 }
 
-.card-bullet {
-  margin-top: 45px;
-}
-
-.card-desc {
-  opacity: 0.7;
-  font-size: medium;
-}
-
-.bullet {
-  display: flex;
-  padding: 12px 0px;
-  justify-content: start;
-  align-items: center;
-}
-
-.bulletsign {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid orangered;
-  margin-right: 20px;
-}
-
-.bulletbody {
-  font-size: medium;
-  transition: 0.6s;
-}
-
-.bulletbody:hover {
-  font-size: large;
-}
 
 /* romans.html */
 
@@ -458,6 +443,32 @@ card {
 
 button.iframe-button {
   margin-top: 5rem;
+}
+
+#footer {
+  background-color: #1e1f24;
+  text-align:center;
+  color: white;
+  opacity: 0.9;
+  padding: 30px 30px;
+}
+
+#footer div {
+  margin-bottom: 1rem;
+}
+
+#footer:hover {
+  opacity: 1;
+
+}
+
+#footer a {
+  color: white;
+  margin: 3rem 0rem;
+}
+
+#footer a:hover {
+  font-weight: 800;
 }
 
 @media only screen and (max-width: 768px) {
